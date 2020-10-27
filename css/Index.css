@@ -1,0 +1,11 @@
+figure {
+	width: 100%;
+	margin: 0;
+	padding: 350px 0 0 0;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	overflow: hidden;
+  background: url(http://res.cloudinary.com/duqzvuawc/image/upload/c_scale,h_424/v1508813537/clouds_tile_efhbuh.jpg);
+  animation: clouds_animation 75s linear infinite;
+}
