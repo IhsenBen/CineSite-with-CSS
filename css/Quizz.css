@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Satisfy');
+
+
+
 
 body {
 	font-size:18px;
@@ -6,7 +8,6 @@ body {
 	color: #fff;
 	margin: 0;
 	padding: 0;
-    background-color:black;
 }
 
 .icons {
@@ -15,10 +16,11 @@ body {
   margin-top: -200px;
   background-color: transparent;
 }
+
 #container
 {
     border: solid thin black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Vampiro One', cursive;
     background-color:black;
     color: white;
     text-align: center;
@@ -32,17 +34,26 @@ body {
     margin-right: auto;
 }
 
-article {
-	width: 80%;
-	margin: 40px auto 0 auto;
-	padding: 20px;
-	position: relative;
-}
+
 
 h1 {
-	font-size: 3.85em;
-	margin: 0 0 .5em 0;
-	font-family: 'Satisfy', cursive;
+  color: red;
+  font-family: 'Creepster', cursive;
+  text-align: center;
+	font-size: 100px;
+  text-shadow: 3px 3px 3px #fff;
+}
+
+
+
+.question {
+  font-size: 30px;
+  font-family: 'Syne Tactile', cursive;
+  
+}
+
+.réponses{
+  
 }
 
 figure {
@@ -60,3 +71,100 @@ figure {
   0%  {background-position: 0 0;}
   100%  {background-position: -2122px 0;}
 }
+
+/* Slide In ANimation Quiz */
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes slideInDown {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+  @keyframes slideInDown {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  } 
+
+  @-webkit-keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @-webkit-keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  .hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }

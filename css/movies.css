@@ -1,0 +1,164 @@
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+
+/* position of the nav bar */
+.nav
+{ 
+text-align: center;
+}
+
+
+.nav,.icons,
+{
+    display: inline;
+    
+}
+
+.icons, .pic
+{
+    display: inline;
+    height:80px;
+    width: 100px;   
+    padding:10px;
+}
+/* position of the nav bar */
+
+.box
+
+{
+    font-family: 'Oswald', sans-serif;
+  
+    color:white;
+}
+
+h1
+
+{
+    text-align:center;
+    color:white;
+}
+
+
+h2
+{
+    color:white;
+}
+
+h3
+ { 
+    color:#F77218;
+}
+
+a
+{
+  
+  color: white;
+}
+
+p{
+    color:white;
+}
+
+img
+{
+    text-align: center;
+}
+
+.affiche 
+{
+    float:left;
+}
+.picaffiche
+{
+    height:600px;
+    width: 400px;
+}
+.center
+{
+    width: 400px;
+}
+.center, .trailer
+{
+   display: inline-block;
+   text-align: center;
+   padding:auto;
+   margin: auto;
+   width: 300px;
+}
+.trailer
+{
+    
+    text-align: center;
+    padding:auto;
+    margin: auto;
+
+}
+
+.playlist
+{
+    
+    display: inline-block;
+    float: right;
+    width: 300px;
+   
+}
+
+.playlist, .playlist1
+{
+    display: inline;
+    width: 300px;
+    
+}
+
+.avis
+{
+    widows: 150px;
+    height:150px;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+ 
+}
+
+.textarea
+{
+    text-align:center;
+    resize: none;
+    
+}
+
+.input
+{
+    color:#F77218;
+    text-align:center;
+}
+
+.button{
+   text-align:center;
+   margin: auto;
+   padding: auto;
+   padding-top:10px;
+   padding-bottom: 10px;
+}
+
+.imgavis
+{
+    float: right;
+    text-align: center;
+}
