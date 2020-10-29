@@ -51,6 +51,11 @@ figure {
   background: url(https://i.imgur.com/ZrhF1uS.png);
   animation: clouds_animation 75s linear infinite;
 }
+@keyframes clouds_animation {
+  
+  0%  {background-position: 0 0;}
+  100%  {background-position: -2122px 0;}
+}
 
 .banner{
   
@@ -101,11 +106,7 @@ h1 {
     text-align: center;
 }
 
-@keyframes clouds_animation {
-  
-  0%  {background-position: 0 0;}
-  100%  {background-position: -2122px 0;}
-}
+
 
 
 
