@@ -1,3 +1,12 @@
+/* police */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+
 .hvr-grow-shadow {
     display: inline-block;
     vertical-align: middle;
@@ -18,10 +27,12 @@
 
 
 
+
 /* position of the nav bar */
 .nav
 { 
 text-align: center;
+
 }
 
 
@@ -48,11 +59,28 @@ text-align: center;
     color:white;
 }
 
+.header
+{
+    text-align: center;
+   
+   
+}
+
+
+.slider
+{
+    text-align: center;
+}
+
+
 h1
 
 {
     text-align:center;
-    color:white;
+    color: red;
+    font-size: 45pt;
+    font-family: 'Nosifer', cursive;
+    letter-spacing: 8px;
 }
 
 
@@ -64,16 +92,19 @@ h2
 h3
  { 
     color:#F77218;
+    font-family: 'Roboto', sans-serif;
 }
 
 a
 {
   
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 p{
     color:white;
+    font-family: 'Roboto', sans-serif;
 }
 
 img
@@ -84,24 +115,33 @@ img
 .affiche 
 {
     float:left;
+    font-family: 'Roboto', sans-serif;
 }
+
 .picaffiche
 {
     height:600px;
     width: 400px;
 }
+
 .center
 {
-    width: 400px;
+   
+    padding-left: 200px;
+    margin-right: 200px;
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
 }
+
 .center, .trailer
 {
    display: inline-block;
    text-align: center;
    padding:auto;
    margin: auto;
-   width: 300px;
+
 }
+
 .trailer
 {
     
@@ -129,9 +169,9 @@ img
 
 .avis
 {
-    widows: 150px;
-    height:150px;
-    text-align:center;
+   
+    widows: 300px;
+    height: 200px;
     font-family: 'Oswald', sans-serif;
  
 }
@@ -143,6 +183,7 @@ img
     
 }
 
+
 .input
 {
     color:#F77218;
@@ -151,8 +192,6 @@ img
 
 .button{
    text-align:center;
-   margin: auto;
-   padding: auto;
    padding-top:10px;
    padding-bottom: 10px;
 }
@@ -162,3 +201,28 @@ img
     float: right;
     text-align: center;
 }
+////////////////////
+.typewriter p {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }

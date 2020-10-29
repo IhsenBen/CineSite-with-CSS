@@ -4,44 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/movies.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <title>Page film It</title>
 </head>
 <iframe width="0" height="0"controls autoplay src="it.mp3"></iframe>
-<body background="background.jpg">
+<body background="/resources/stars.gif">
   
   
      
+    <!--Ceci est le menu de navigation, faudrait creer les pages html des films avec les memes denominations presentes dans les balis <a href="..."> -->
+      <div class="nav">
         
-      <!--Ceci est le menu de navigation, faudrait creer les pages html des films avec les memes denominations presentes dans les balis <a href="..."> -->
-    <table id="modele" width="1230" height="50" align="center" border="5">
-      <thead>
-        <tr>
-          <th>
-
-    <a href="Index.html"><img src="/resources/home.png" alt="massacrealatronconneuse" height="80" width="130" align="center"></a>
-    <a href="massacre.html"><img src="/resources/massacrealatronconneuse.jpg" alt="massacrealatronconneuse" height="80" width="100" align="center"></a>
-    <a href="cannibal.html"><img src="/resources/cannibalholocaust.jpg" alt="cannibalholocaust"height="80" width="100"align="center"></a>
-    <a href="it.html"><img src="/resources/ca.jpg" alt="Ça"height="80" width="100"align="center"></a>
-    <a href="joker.html"><img src="/resources/Jokerfilm.jpg" alt="Joker"height="80" width="100"align="center"></a>
-    <a href="annabelle.html"><img src="/resources/annabelle.jpg" alt="annabelle"height="80" width="100"align="center"></a>
-    <a href="Aliens.html"><img src="/resources/alienmenu.jpg" alt="aliens"height="80" width="100"align="center"></a>
-    <a href="shining.html"><img src="/resources/shining.jpg" alt="shining"height="80" width="100"align="center"></a>
-    <a href="Getout.html"><img src="/resources/Getout.jpg" alt="Getout"height="80" width="100"align="center"></a>
-    <a href="exorciste.html"><img src="/resources/L-exorciste.jpg" alt="L-exorciste"height="80" width="100"align="center"></a>
-    <a href="Question.html"><img src="/resources/question.png" alt="massacrealatronconneuse" height="80" width="130" align="center"></a>
+        <div class="icons">
   
-            </div>
-          </th>
-        </tr>
+        <a href="Index.html"class="hvr-grow-shadow"><img src="/resources/home.png" class="pic"alt="massacrealatronconneuse"></a>
+        <a href="massacre.html"class="hvr-grow-shadow"><img src="/resources/massacrealatronconneuse.jpg" class="pic" alt="massacrealatronconneuse" ></a>
+        <a href="cannibal.html"class="hvr-grow-shadow"><img src="/resources/cannibalholocaust.jpg" class="pic" alt="cannibalholocaust"></a>
+        <a href="it.html"class="hvr-grow-shadow"><img src="/resources/ca.jpg" class="pic" alt="Ça"></a>
+        <a href="joker.html"class="hvr-grow-shadow"><img src="/resources/Jokerfilm.jpg" class="pic" alt="Joker"></a>
+        <a href="annabelle.html"class="hvr-grow-shadow"><img src="/resources/annabelle.jpg" class="pic" alt="annabelle"></a>
+        <a href="Aliens.html"class="hvr-grow-shadow"><img src="/resources/alienmenu.jpg" class="pic" alt="aliens"></a>
+        <a href="shining.html"class="hvr-grow-shadow"><img src="/resources/shining.jpg" class="pic" alt="shining" ></a>
+        <a href="Getout.html"class="hvr-grow-shadow"><img src="/resources/Getout.jpg" class="pic" alt="Getout"></a>
+        <a href="exorciste.html"class="hvr-grow-shadow"><img src="/resources/L-exorciste.jpg" class="pic "alt="L-exorciste"></a>
+        <a href="Question.html"class="hvr-grow-shadow"><img src="/resources/question.png" class="pic" alt="massacrealatronconneuse"></a>
+         
+        </div>   
   
-  
-      </thead>
-      <tbody> 
-        
-      </tbody>
-    </table> 
-  
-  <!--Fin de menu Nav -->
+      </div>
+      <!--Fin de menu Nav -->
         
       <audio autoplay>
         <source src="it.mp3" type="audio/mp3">
@@ -49,27 +40,35 @@
          
     
     
-      <font size="5"color="#FD720C">
+    
     
     
          <!-- Titre à Modifier -->
-         <h1><strong><center> It </center></strong></h1> 
-         <center><img src="sang.gif" height="100" width="180"> </center>
-    
-             <center> <MARQUEE SCROLLAMOUNT="8" width="800"> 
-                <img src="it_higif.gif"height="250px" width="500px"> 
-                <img src="it_facegif.gif"height="250px" width="500px">
-                <img src="it_wowgif.gif"height="250px" width="500px">
+         <div class="header">
+         <h1> It </h1> 
+         <img src="/resources/sang.gif" class="sangtitre">
+        </div>
+<!-- Slider ( vous pouvez checker tumblr pour des gifs interessants pour vos films) -->
+        <div class="slider"> 
+                <MARQUEE SCROLLAMOUNT="8" width="800"> 
+                <img src="/resources/it_higif.gif"height="250px" width="500px"> 
+                <img src="/resources/it_facegif.gif"height="250px" width="500px">
+                <img src="/resources/it_wowgif.gif"height="250px" width="500px">
                 
-                  </MARQUEE></center>
-             <center> <table border="0" background="">
+                  </MARQUEE>
+        </div>
+ <!-- Slider ( vous pouvez checker tumblr pour des gifs interessants pour vos films) -->
+
+  <!-- this is the main bloc which contain most of the page     -->
+  <div class="box">    
                 
                    
-                    <td bgcolor="black"> <font face="arial" color="#00B409"> <strong>
                     
-                    
-                        <center><a href="https://fr.wikipedia.org/wiki/%C2%AB_Il_%C2%BB_est_revenu"><img src="it1990.jpg"width="400" height="600"></a></center>
-                        <ul align="justify">
+    <!-- ceci est la section gauche, avec l'affiche, faudrait changer le lien wiki et l'affiche selon le film correspondant  -->                 
+ <div class="affiche">               
+                        <a href="https://fr.wikipedia.org/wiki/%C2%AB_Il_%C2%BB_est_revenu"><img src="/resources/it1990.jpg"width="400" height="600"></a>
+
+             <div class="info">
                           <li>Titre original: It </li>
                          <li> Réalisation: 
                            <ul>
@@ -93,18 +92,17 @@
                                <li>Part 2 : 93mins </li></ul>
                          <li>Sortie: 1990</li>
                         </ul>
-                     </font> 
-                     </strong>
-                     <img src="sang.gif">
+               </div>
+                    
+                     <img src="/resources/sang.gif">
                     
         
-                </td>
-        
-                <td>
+   </div>
+    <!-- partie centrale de la box -->          
                      
                   <font face="arial" size="5"color="#00B409"> 
                    <strong> 
-                       <center><img src="giphyit.gif" height="400px" width="800px"></center>
+                       <center><img src="/resources/giphyit.gif" height="400px" width="800px"></center>
                        <h2 align="center">Synopsis</h2>
                       <p align="center">
                         En 1960, sept enfants exclus connus sous le nom de “The Losers ’Club” combattent un démon maléfique qui se fait passer pour un clown tueur d’enfants. 
@@ -132,7 +130,7 @@
         
             <td width="300px">
               <iframe src="https://open.spotify.com/embed/album/0Yh9tGmlh3esMh7agnCOog" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-              <img src="sang.gif" height="170">
+              <img src="/resources/sang.gif" height="170">
                 </td>
              <tr>
         
@@ -154,7 +152,7 @@
       <p><font color="#FD720C"><strong>Commentaires:</strong></font></p>
       <p><textarea rows"500"  cols="60"></textarea></p>
       <button name="button">Valider</button>
-      <p><center><img src="sang.gif"></center></p>
+      <p><center><img src="/resources/sang.gif"></center></p>
       </strong>
       </font>
       </font>
