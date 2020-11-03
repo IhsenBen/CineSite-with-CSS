@@ -151,9 +151,9 @@ h1 {
 {
    display: flex;
    flex-wrap: wrap;
-    font-family: 'Oswald', sans-serif;
+   color:white;
+   flex-direction: row;
   
-    color:white;
 }
 
 
@@ -273,35 +273,40 @@ a
 /* partie pour l'adaptation responsive de la box principal */
 
 @media screen and (max-width: 800px){
+   .box
+{
+   flex-direction: column
+}
  
  .affiche{
-    order:1;
       flex-basis:100%;
    }
+
 .center{
-   order:2;
+   
    flex-basis:100%;
    size: 50px;
- 
-
 }
+
 .picture
 {
    height: 200px;
    width: 300px;
 }
+
 .playlist{
-   order:3;
+  
    flex-basis: 100%;
 
 }
 .avis{
-   order:4;
+
    flex-basis:100%;
 }
-.box
+
+.h1
 {
-   flex-direction: column
+   font-size: 60px;
 }
 }
 
