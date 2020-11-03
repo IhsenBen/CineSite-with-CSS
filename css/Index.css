@@ -48,7 +48,7 @@ figure {
 	left: 0;
 	bottom: 0px;
 	overflow: hidden;
-  background: url('https://i.imgur.com/ZrhF1uS.png');
+  background: url(https://i.imgur.com/ZrhF1uS.png);
   animation: clouds_animation 75s linear infinite;
 }
 @keyframes clouds_animation {

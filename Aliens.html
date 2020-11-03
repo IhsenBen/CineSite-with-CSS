@@ -46,72 +46,38 @@
 
 <!-- Titre à Modifier -->
 <div class="header">
+    <div class="title">
     
-   <h1>Aliens (1986)</h1> 
+        <h1 class="fadeIn">Aliens</h1> 
     
-   <img src="resources/sang.gif" class="sangtitre"> 
+    <img src="resources/sang.gif" class="sangtitre"> 
+    </div>
+</div>
 
-
-   <div id="slider">
-    <input type="radio" name="slider" id="slide1" checked>
-    <input type="radio" name="slider" id="slide2">
-    <input type="radio" name="slider" id="slide3">
-    <input type="radio" name="slider" id="slide4">
-    <div id="slides">
-       <div id="overflow">
-          <div class="inner">
-             <div class="slide slide_1">
-                <div class="slide-content">
-                   <h2>Slide 1</h2>
-                   <p><img src="resources/ripley_gun.gif"></p>
-                </div>
-             </div>
-             <div class="slide slide_2">
-                <div class="slide-content">
-                   <h2>Slide 2</h2>
-                   <p><img src="resources/ripley_machine.gif"></p>
-                </div>
-             </div>
-             <div class="slide slide_3">
-                <div class="slide-content">
-                   <h2>Slide 3</h2>
-                   <p><img src="resources/alien_rise.gif"></p>
-                </div>
-             </div>
-             <div class="slide slide_4">
-                <div class="slide-content">
-                   <h2>Slide 4</h2>
-                   <p><img src="resources/aliens2.gif"></p>
-                </div>
-             </div>
-          </div>
+   <div class="slider">
+      <div class="slider1">
+          <MARQUEE SCROLLAMOUNT="5" width="800"> 
+            
+             <img src="resources/annabelle1.gif"height="250px" width="500px">
+             <img src="resources/annabelle2.gif"height="250px" width="500px"> 
+             <img src="resources/annabelle3.gif"height="250px" width="500px">
+             <img src="resources/annabelle4.jpg"height="250px" width="500px">
+          </MARQUEE>
        </div>
     </div>
-    <div id="controls">
-       <label for="slide1"></label>
-       <label for="slide2"></label>
-       <label for="slide3"></label>
-       <label for="slide4"></label>
-    </div>
-    <div id="bullets">
-       <label for="slide1"></label>
-       <label for="slide2"></label>
-       <label for="slide3"></label>
-       <label for="slide4"></label>
-    </div>
- </div>
 <!-- Slider ( vous pouvez checker tumblr pour des gifs interessants pour vos films) -->
 
 <!-- this is the main bloc which contain most of the page           -->
+
 <div class="box">
             
 
      
  <!-- ceci est la section gauche, avec l'affiche, faudrait changer le lien wiki et l'affiche selon le film correspondant  -->
-<div class="affiche">
-        <a href="https://fr.wikipedia.org/wiki/Aliens,_le_retour"><img src="resources/aliens.jpg" class="picaffiche"></a>
+          <div class="affiche">
+             <a href="https://fr.wikipedia.org/wiki/Aliens,_le_retour"><img src="resources/aliens.jpg" class="picaffiche"></a>
 
-         <div class="info">
+                <div class="info">
                  
                   <dl>
                         <dd>Titre original:	Aliens </dd>
@@ -142,13 +108,13 @@
                   </dl>
                    
                    
-         </div>
+                </div>
 
                     <img src="resources/sang.gif">
-</div>
+            </div>
 <!-- partie centrale de la box -->
             <div class="center">
-                  <img src="resources/aliens_crew.jpg" height="400px" width="600px">
+                  <img src="resources/aliens_crew.jpg" class="picture" height="400px" width="600px">
                     <h2>Synopsis</h2>
                     <p>
                Après 57 ans de dérive dans l'espace, Ellen Ripley est secourue par la corporation Weyland-Yutani. Malgré son rapport, 
@@ -157,11 +123,12 @@
                     </p>    
                     
                   <!-- citation  -->
-                    <h2 align="center">Citations:</h2>  
+                    <h2>Citations:</h2>  
                     <ul>« Être dans les marines, c'est comme des vacances à la ferme. Chaque repas est un banquet, chaque mission est une partie de plaisir, à chaque fin de mois on est millionnaire. » (Sergent Apone)</ul>
                     <ul>« Vous savez quoi, Burke ? Je crois que vous êtes encore pire que ces créatures, parce qu'elles au moins ne se tuent pas entre elles pour tirer le plus gros paquet de fric ! » (Ellen Ripley à Carter J Burke).</ul>
                   <!-- End citation -->
                <!-- Trailer YTB -->
+
                <div class="trailer">
                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/gUsuFgZ6lJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                    </iframe>
@@ -174,9 +141,11 @@
 <!-- playlist section -->
 
             <div class="playlist">
+                <div class="spotify">
                 <iframe src="https://open.spotify.com/embed/album/6cGPJrv1JowH9FXeW45TtQ" width="300" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media" autoplay>
                 </iframe>
-                <img src="resources/sang.gif"class="playlist1">
+                </div>
+                <img src="resources/sang.gif" class="playlist1">
             </div>
  <!-- The end of playlist section -->           
     
@@ -188,34 +157,34 @@
 
 <div class="avis">
 
-   <div class="center">
-
-    <h3>Donnez votre avis</h3>
-
-    <div class="input">
-     <input type="radio" name="couleur" value ="Bleu" /> 1
-     <input type="radio" name ="couleur" value ="Rouge" /> 2
-     <input type="radio" name="couleur" value ="Bleu" /> 3
-     <input type="radio" name ="couleur" value ="Rouge" /> 4
-     <input type="radio" name ="couleur" value ="Vert" checked="checked" /> 5
-    </div>
-
-    <h3>Commentaires:</h3>
-
-    <div class="textarea">
-        <textarea>
-
-        </textarea>
-    </div>
-
-    <div class="button">
-        <button>
-            Valider
-        </button>
-    </div>
     
-   <img src="resources/sang.gif">
-
+    <div calss="bla">
+     <h3>Donnez votre avis</h3>
+ 
+     <div class="input">
+      <input type="radio" name="couleur" value ="Bleu" /> 1
+      <input type="radio" name ="couleur" value ="Rouge" /> 2
+      <input type="radio" name="couleur" value ="Bleu" /> 3
+      <input type="radio" name ="couleur" value ="Rouge" /> 4
+      <input type="radio" name ="couleur" value ="Vert" checked="checked"/> 5
+     </div>
+ 
+     <h3>Commentaires:</h3>
+ 
+     <div class="textarea">
+         <textarea>
+ 
+         </textarea>
+     </div>
+ 
+     <div class="button">
+         <button>
+             Valider
+         </button>
+     </div>
+     
+    <img src="resources/sang.gif">
+    </div>
 </div>
 
 <!-- Fin Section commentaire  -->

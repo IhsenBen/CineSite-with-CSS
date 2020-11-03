@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/movies.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <title>Page film annabelle</title>
+    <title>Page film Annabelle</title>
 </head>
 <body background="resources/stars.gif">
 
@@ -46,12 +46,13 @@
 
 <!-- Titre à Modifier -->
 <div class="header">
-    <div class="typewriter">
-   <h1>Annabelle (2014)</h1> 
-   </div>
-   <img src="resources/sang.gif" class="sangtitre"> 
+    <div class="titre">
+    
+        <h1 class="fadeIn">Annabelle</h1> 
+    
+    <img src="resources/sang.gif" class="sangtitre"> 
+    </div>
 </div>
-
  <div class="slider">
     <MARQUEE SCROLLAMOUNT="5" width="800"> 
             
@@ -74,34 +75,39 @@
 
          <div class="info">
                  
-
-            <<li>Titre original:	Annabelle </li>
-            <li> Réalisation:John R. Leonetti</li>
-            <li>Scénario:
-                 <ul>
-                     <li>Gary Dauberman</li>
-                 </ul> 
-                 </li>
-             <li>Acteurs principaux:	
-                 <ul>
-                 <li>Annabelle Wallis</li>
-                 <li>Ward Horton</li>
-                 <li>Tony Amendola</li>
-                 <li>Alfre Woodard</li>
-                </ul>
-             </li>
-             </ul>
-            <li>Durée:  98 minutes</li>
-            <li>Sortie:	2014</li>
-                   
-                   
-            </div>
+            <dl>
+                <dd>Titre original:	Annabelle </dd>
+                <dl>
+                <dd>Réalisation:</dd>
+                </br>
+                   <dd>John R. Leonetti</dd>
+                </dl>
+                <dl>
+               <dd>Scénario:</dd>
+            </br>
+                        <dd>Gary Dauberman</dd>
+                        
+                </dl> 
+                <dl>
+                <dd>Acteurs principaux:</dd>	
+            </br>
+                    <dd>Annabelle Wallis</dd>
+                    <dd>Ward Horton</dd>
+                    <dd>Tony Amendola</dd>
+                    <dd>Alfre Woodard</dd>
+                    
+                    </dl>
+                
+               <dd>Durée:  98 minutes</dd>
+               <dd>Sortie:	2014</dd>
+          </dl> 
+        </div>
 
                     <img src="resources/sang.gif">
 </div>
 <!-- partie centrale de la box -->
             <div class="center">
-                  <img src="resources/annabelle.jpg" height="400px" width="600px">
+                  <img src="resources/annabelle.jpg" class="picture" height="400px" width="600px">
                     <h2>Synopsis</h2>
                     <p>
                         Été 1969, John et Mia, qui attendent leur premier enfant, viennent d'emménager dans une maison à Santa Monica. John, 
@@ -116,7 +122,8 @@
                   <!-- End citation -->
                <!-- Trailer YTB -->
                <div class="trailer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/paFgQNPGlsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/paFgQNPGlsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
                </div>
                <!-- Fin Trailer YTB -->
                
@@ -126,9 +133,11 @@
 <!-- playlist section -->
 
             <div class="playlist">
+                <div class="spotify">
                 <iframe src="https://open.spotify.com/embed/album/2OCSWme6Y5SPnG15F2He0v" width="300" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media" autoplay>
                 </iframe>
-                <img src="resources/sang.gif"class="playlist1">
+                </div>
+                <img src="resources/sang.gif" class="playlist1">
             </div>
  <!-- The end of playlist section -->           
     
@@ -140,39 +149,38 @@
 
 <div class="avis">
 
-   <div class="center">
-
-    <h3>Donnez votre avis</h3>
-
-    <div class="input">
-     <input type="radio" name="couleur" value ="Bleu" /> 1
-     <input type="radio" name ="couleur" value ="Rouge" /> 2
-     <input type="radio" name="couleur" value ="Bleu" /> 3
-     <input type="radio" name ="couleur" value ="Rouge" /> 4
-     <input type="radio" name ="couleur" value ="Vert" checked="checked" /> 5
-    </div>
-
-    <h3>Commentaires:</h3>
-
-    <div class="textarea">
-        <textarea>
-
-        </textarea>
-    </div>
-
-    <div class="button">
-        <button>
-            Valider
-        </button>
-    </div>
     
-   <img src="resources/sang.gif">
-
+    <div calss="bla">
+     <h3>Donnez votre avis</h3>
+ 
+     <div class="input">
+      <input type="radio" name="couleur" value ="Bleu" /> 1
+      <input type="radio" name ="couleur" value ="Rouge" /> 2
+      <input type="radio" name="couleur" value ="Bleu" /> 3
+      <input type="radio" name ="couleur" value ="Rouge" /> 4
+      <input type="radio" name ="couleur" value ="Vert" checked="checked"/> 5
+     </div>
+ 
+     <h3>Commentaires:</h3>
+ 
+     <div class="textarea">
+         <textarea>
+ 
+         </textarea>
+     </div>
+ 
+     <div class="button">
+         <button>
+             Valider
+         </button>
+     </div>
+     
+    <img src="resources/sang.gif">
+   </div>
 </div>
+ 
+ <!-- Fin Section commentaire  -->
+ 
 
-<!-- Fin Section commentaire  -->
-
-
-  
 </body>
 </html>
