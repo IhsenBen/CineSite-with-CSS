@@ -150,9 +150,9 @@ h1 {
 
 {
    display: flex;
-   flex-wrap: wrap;
+   flex-wrap: wrap; 
    color:white;
-   flex-direction: row;
+   flex-flow: row;
   
 }
 
@@ -187,7 +187,7 @@ a
 {
    justify-content:center;
    align-items:center;
-   flex-basis: 25%;
+   flex: 25%;
    font-family: 'Roboto', sans-serif;
 }
 
@@ -205,13 +205,14 @@ a
 .center
 {
    /* flex to align content */
+   flex:50%;
   display: inline-flex;
   align-items:center;
   justify-content:center;
   /* end flex update*/
   
   height: 20px;
-  width: 50%;
+  
   vertical-align:middle;
   text-align:center;
   color: white;
@@ -231,7 +232,7 @@ a
 .playlist
 {
    
-   flex-basis: 25%;
+   flex: 25%;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -285,7 +286,7 @@ a
 .center{
    
    flex-basis:100%;
-   size: 50px;
+   size: 60px;
 }
 
 .picture
@@ -304,9 +305,9 @@ a
    flex-basis:100%;
 }
 
-.h1
+h1
 {
-   font-size: 60px;
+   font-size: 80px;
 }
 }
 
